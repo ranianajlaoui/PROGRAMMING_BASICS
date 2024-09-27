@@ -1,14 +1,13 @@
-var min_age = 10;
-var min_height = 42;
-Stretch Feature 1
+var age;
+var height;
+//Stretch Feature 1
 if (height>=42 && age>=10)
-    {  "Get on that ride, kiddo!"}
-else{
-     "Sorry kiddo. Maybe next year."
+    { console.log("Get on that ride, kiddo!")}
+else{ console.log("Sorry kiddo. Maybe next year.")
 }
-Stretch Feature 2
+//Stretch Feature 2
 if ( height>=42 || age>=10) {
-     "Get on that ride, kiddo!"
-
+console.log( "Get on that ride, kiddo!")
 }
-else{ "Sorry kiddo. Maybe next year."}
+else
+{ console.log("Sorry kiddo. Maybe next year.")}
