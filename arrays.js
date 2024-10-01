@@ -1,13 +1,16 @@
-var contactInfo = ["Paula", "Smith", "1234 Main Street", "St. Louis", "MO", 12345];
-console.log(contactInfo);
-//["Paula", "Smith", "1234 Main Street", "St. Louis", "MO", 1234]
-var produce = ["apples", "oranges"];
-var frozen = ["broccoli", "ice cream"];
-frozen.push("hashbrowns");
-console.log(frozen);
-//["broccoli","ice cream","hashbrowns"]
-var movieLibrary = ["Bambi", "E.T.", "Toy Story"];
-movieLibrary.push("Zorro");
-movieLibrary[1] = "Beetlejuice";
-console.log(movieLibrary);
-//["Bambi", "Beetlejuice", "Toy Story","Zorro"]
+snippet1
+var                                value
+contactinfo                        ["Paula", "Smith", "1234 Main Street", "St. Louis", "MO", 12345]
+snippet2
+var                                value
+produce                            ["apples","oranges"]
+frozen                             ["broccoli","icecream"]
+produce                            ["apples","oranges"]
+frozen                             ["broccoli","icecream","hashbrowns"]
+snippet3
+var                                value
+movieLibrary                   ["Bambi", "E.T.", "Toy Story"]
+movieLibrary                    ["Bambi", "E.T.", "Toy Story","Zorro"]
+movieLibrary                    ["Bambi", "Beetlejuice", "Toy Story","Zorro"]
+
+
